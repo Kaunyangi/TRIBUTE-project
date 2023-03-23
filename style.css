@@ -49,7 +49,16 @@ figure {
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 }
-
+@media (max-width: 460px)
+#img-caption {
+    font-size: 1.4rem;
+}
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+figcaption {
+    display: block;
+}
 blockquote {
     font-style: italic;
     max-width: 545px;
